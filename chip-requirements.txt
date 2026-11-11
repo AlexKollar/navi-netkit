@@ -1,0 +1,6 @@
+# Navi Netkit runs on the Python standard library alone — the core
+# needs nothing installed. The math comes from Python's ipaddress
+# module; the port table and the MAC rules are frozen into the chip.
+# There are no optional extras: every command works fully offline,
+# and nothing in the chip touches a network (no sockets, no DNS,
+# no HTTP).
